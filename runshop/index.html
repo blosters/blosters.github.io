@@ -39,6 +39,32 @@
         .app-desc { font-size: 14px; color: #666; margin-top: 4px; }
         .contact { margin-top: 32px; font-size: 14px; color: #999; }
         .contact a { color: #4f7be9; text-decoration: none; }
+        .btn-row {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 16px;
+        }
+        .btn-playstore, .btn-testers {
+            display: inline-block;
+            padding: 12px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .btn-playstore {
+            background: #1a1a2e;
+            color: white;
+        }
+        .btn-playstore:hover { background: #2e2e50; }
+        .btn-testers {
+            background: #1DB954;
+            color: white;
+        }
+        .btn-testers:hover { background: #17a348; }
     </style>
 </head>
 <body>
@@ -50,6 +76,15 @@
         <div class="app">
             <div class="app-name">Runshop — Liste de courses</div>
             <div class="app-desc">Application de liste de courses intelligente avec synchronisation en temps réel et apprentissage automatique.</div>
+        </div>
+
+        <div class="btn-row">
+            <a class="btn-testers" href="https://groups.google.com/g/runshop-testers" target="_blank" rel="noopener">
+                Rejoindre les testeurs 👥
+            </a>
+            <a class="btn-playstore" href="https://play.google.com/store/apps/details?id=com.blosters.runshop" target="_blank" rel="noopener">
+                ▶ Télécharger sur Play Store
+            </a>
         </div>
 
         <div class="contact">
